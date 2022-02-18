@@ -9,6 +9,7 @@ import UseEffectTwo from './components/UseEffectTwo';
 import UseStateThree from './components/UseStateThree';
 import MouseContainer from './components/MouseContainer';
 import IntervalTimerCount from './components/IntervalTimerCount';
+import DataFetching from './components/DataFetching';
 
 
 
@@ -32,6 +33,7 @@ class App extends Component{
     <UseEffectTwo/>
     <MouseContainer/>
     <IntervalTimerCount/>
+    <DataFetching/>
       </div>
     );
   }

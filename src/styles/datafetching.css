@@ -1,0 +1,16 @@
+.data-fetching{
+    border: 2px solid transparent; 
+    border-color: #dc143c;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
+    position: absolute;
+    left: 0px;
+    width:870px;
+    text-align: center;
+
+}
+ul{
+    display: inline-block;
+    text-align: left;
+}
