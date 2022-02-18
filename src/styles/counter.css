@@ -1,0 +1,35 @@
+.counter{
+    border: 2px solid transparent; 
+    border-color: #dc143c;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.first-line, .second-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+}
+.first-line > h3{
+    padding: 5px;
+    size: 20px;
+    border: 1px solid ;
+    border-color: #dc143c;
+}
+button{
+    size: 10%;
+    text-align: center;
+    width: 6rem;
+    border-color: #dc143c;
+    background-color: #dc143c;
+    color:white;
+    border-radius: 3px;
+}
+button:hover{
+    color: #dc143c;
+    background-color:white;
+}
