@@ -10,6 +10,7 @@ import UseStateThree from './components/UseStateThree';
 import MouseContainer from './components/MouseContainer';
 import IntervalTimerCount from './components/IntervalTimerCount';
 import DataFetching from './components/DataFetching';
+import ReactIcons from './components/ReactIcons';
 
 
 
@@ -24,15 +25,16 @@ class App extends Component{
           <button>Heyy</button>
         </Greet>
     <Hello/>*/}
-    <Message></Message>
-    <br></br>
-    <Counter></Counter>
+    <Message/>
+    <br/>
+    <Counter/>
     <HookCounterexample/>
     <HookCounterTwo/>
     <UseEffectOne/>
     <UseEffectTwo/>
     <MouseContainer/>
     <IntervalTimerCount/>
+    <ReactIcons/>
     <DataFetching/>
       </div>
     );
